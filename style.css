@@ -1,0 +1,29 @@
+.project {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+@media (max-width: 768px) {
+    
+}
+
+body {
+    background-color: rgb(168, 227, 120);
+    font-family: Arial, Helvetica, sans-serif;
+}
+header {
+    text-align: center;
+}
+h2 {
+    text-align: center;
+}
+#projects img {
+    width: 50%;
+}
+.AboutMe p {
+    justify-content: space-around;
+}
+a {
+    text-align: center;
+    padding: 10px;
+}
