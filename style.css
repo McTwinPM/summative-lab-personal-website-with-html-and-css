@@ -2,6 +2,7 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
+    
 }
 @media (max-width: 768px) {
     
@@ -17,13 +18,21 @@ header {
 h2 {
     text-align: center;
 }
-#projects img {
+div p{
+    margin-top: 50px;
+}
+#myProjects img {
+    margin: auto;
     width: 50%;
 }
 .AboutMe p {
     justify-content: space-around;
 }
-a {
+/*a {
     text-align: center;
     padding: 10px;
+}*/
+h3 {
+    text-align: right;
+    margin-top: 50px;
 }
