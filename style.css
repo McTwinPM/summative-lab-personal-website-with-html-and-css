@@ -5,7 +5,6 @@
     margin-right: 300px;
     margin-left: 300px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-
 }
 div.project:hover {
     transform: scale(1.05);
@@ -41,9 +40,10 @@ h2 {
     margin-right: 300px;
     
 }
-.AboutMe ul {
-    margin: 50px;
-    justify-content: space-around;
+section.AboutMe img {
+    display: block;
+    margin: auto;
+    width: 200px;
 }
 h3 {
     text-align: center;
