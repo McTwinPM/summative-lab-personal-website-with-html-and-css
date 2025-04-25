@@ -45,3 +45,8 @@ h3 {
     text-align: center;
     margin-top: 50px;
 }
+section.AboutMe img {
+    display: flex;
+    margin: auto;
+    width: 200px;
+}
