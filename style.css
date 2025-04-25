@@ -10,12 +10,9 @@
 div.project:hover {
     transform: scale(1.05);
 }
-.project p {
-
-}
-@media (max-width: 768px) {
+/*@media (max-width: 768px) {
     
-}
+}*/
 
 body {
     background-color: rgb(168, 227, 120);
@@ -27,9 +24,7 @@ header {
 h2 {
     text-align: center;
 }
-div p{
-    ;
-}
+
 #myProjects img {
     margin: auto;
     width:50%;
@@ -37,8 +32,8 @@ div p{
 .AboutMe p {
     justify-content: space-around;
     text-align: center;
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 300px;
+    margin-right: 300px;
 }
 .AboutMe ul {
     margin: 50px;
