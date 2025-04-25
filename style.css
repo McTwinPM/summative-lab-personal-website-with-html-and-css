@@ -10,15 +10,16 @@
 div.project:hover {
     transform: scale(1.05);
 }
-@media (max-width: 768px) {
+@media (max-width: 1000px) {
     .project {
         grid-template-columns: repeat(1, 1fr);
+        margin: auto;
     }
-    .AboutMe {
+    .AboutMe p {
+        text-align: center;
         margin: auto;
     }
 }
-
 body {
     background-color: rgb(168, 227, 120);
     font-family: Arial, Helvetica, sans-serif;
@@ -34,16 +35,17 @@ h2 {
     width:50%;
 }
 .AboutMe p {
-    justify-content: space-around;
+    display: flex;
     text-align: center;
     margin-left: 300px;
     margin-right: 300px;
+    
 }
 .AboutMe ul {
     margin: 50px;
     justify-content: space-around;
 }
 h3 {
-    text-align: right;
+    text-align: center;
     margin-top: 50px;
 }
