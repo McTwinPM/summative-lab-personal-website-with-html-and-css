@@ -36,10 +36,7 @@ h2 {
 }
 .AboutMe p {
     display: flex;
-    text-align: center;
-    margin-left: 300px;
-    margin-right: 300px;
-    
+    justify-content: center;
 }
 h3 {
     text-align: center;
