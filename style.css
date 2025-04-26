@@ -1,3 +1,30 @@
+body {
+    background-color: rgb(168, 227, 120);
+    font-family: Arial, Helvetica, sans-serif;
+}
+header {
+    text-align: center;
+}
+h2 {
+    text-align: center;
+}
+.AboutMe p {
+    display: flex;
+    justify-content: center;
+}
+section.AboutMe img {
+    display: flex;
+    margin: auto;
+    width: 200px;
+}
+#myProjects img {
+    margin: auto;
+    width:50%;
+}
+h3 {
+    text-align: center;
+    margin-top: 50px;
+}
 .project {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -20,30 +47,9 @@ div.project:hover {
         margin: auto;
     }
 }
-body {
-    background-color: rgb(168, 227, 120);
-    font-family: Arial, Helvetica, sans-serif;
-}
-header {
-    text-align: center;
-}
-h2 {
-    text-align: center;
-}
-#myProjects img {
-    margin: auto;
-    width:50%;
-}
-.AboutMe p {
-    display: flex;
-    justify-content: center;
-}
-h3 {
-    text-align: center;
-    margin-top: 50px;
-}
-section.AboutMe img {
-    display: flex;
-    margin: auto;
-    width: 200px;
-}
+
+
+
+
+
+
